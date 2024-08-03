@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movies Tickets</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<body style="background-color: grey;"></body>
+
+    <h1>Book Your Movie Tickets</h1>
+    <form id="booking-form">
+        <label for="movie">Choose a movie:</label>
+        <select id="movie" name="movie">
+            <option value="10">Avengers: Endgame - $10</option>
+            <option value="12">Spider-Man: No Way Home - $12</option>
+            <option value="8">The Lion King - $8</option>
+        </select>
+
+        <label for="seats">Number of seats:</label>
+        <input type="number" id="seats" name="seats" min="1" max="10" value="1">
+
+        <button type="submit">Book Now</button>
+    </form>
+
+    <div id="total-cost"></div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
